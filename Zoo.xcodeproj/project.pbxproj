@@ -11,6 +11,7 @@
 		13041B592C89A38A00DD2A4E /* Cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13041B572C89A38A00DD2A4E /* Cat.cpp */; };
 		13041B5C2C89A6A900DD2A4E /* Elephant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13041B5A2C89A6A900DD2A4E /* Elephant.cpp */; };
 		13041B5F2C89A85E00DD2A4E /* Alien.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13041B5D2C89A85E00DD2A4E /* Alien.cpp */; };
+		13041B612C89AA5100DD2A4E /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13041B602C89AA5100DD2A4E /* Animal.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		13041B5B2C89A6A900DD2A4E /* Elephant.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Elephant.hpp; sourceTree = "<group>"; };
 		13041B5D2C89A85E00DD2A4E /* Alien.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Alien.cpp; sourceTree = "<group>"; };
 		13041B5E2C89A85E00DD2A4E /* Alien.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Alien.hpp; sourceTree = "<group>"; };
+		13041B602C89AA5100DD2A4E /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				13041B572C89A38A00DD2A4E /* Cat.cpp */,
 				13041B4E2C899BDF00DD2A4E /* main.cpp */,
 				13041B562C899CAD00DD2A4E /* Animal.h */,
+				13041B602C89AA5100DD2A4E /* Animal.cpp */,
 				13041B5A2C89A6A900DD2A4E /* Elephant.cpp */,
 				13041B5B2C89A6A900DD2A4E /* Elephant.hpp */,
 				13041B5D2C89A85E00DD2A4E /* Alien.cpp */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13041B612C89AA5100DD2A4E /* Animal.cpp in Sources */,
 				13041B592C89A38A00DD2A4E /* Cat.cpp in Sources */,
 				13041B4F2C899BDF00DD2A4E /* main.cpp in Sources */,
 				13041B5C2C89A6A900DD2A4E /* Elephant.cpp in Sources */,
