@@ -1,6 +1,8 @@
+#pragma once
 #ifndef Animal_h
 #define Animal_h
 #include <iostream>
+
 
 class Animal {
 protected:
