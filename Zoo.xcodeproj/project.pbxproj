@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		13041B4F2C899BDF00DD2A4E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13041B4E2C899BDF00DD2A4E /* main.cpp */; };
+		13041B592C89A38A00DD2A4E /* Cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13041B572C89A38A00DD2A4E /* Cat.cpp */; };
+		13041B5C2C89A6A900DD2A4E /* Elephant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13041B5A2C89A6A900DD2A4E /* Elephant.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,10 @@
 		13041B4B2C899BDF00DD2A4E /* Zoo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Zoo; sourceTree = BUILT_PRODUCTS_DIR; };
 		13041B4E2C899BDF00DD2A4E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13041B562C899CAD00DD2A4E /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		13041B572C89A38A00DD2A4E /* Cat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cat.cpp; sourceTree = "<group>"; };
+		13041B582C89A38A00DD2A4E /* Cat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cat.hpp; sourceTree = "<group>"; };
+		13041B5A2C89A6A900DD2A4E /* Elephant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Elephant.cpp; sourceTree = "<group>"; };
+		13041B5B2C89A6A900DD2A4E /* Elephant.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Elephant.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,12 @@
 		13041B4D2C899BDF00DD2A4E /* Zoo */ = {
 			isa = PBXGroup;
 			children = (
+				13041B582C89A38A00DD2A4E /* Cat.hpp */,
+				13041B572C89A38A00DD2A4E /* Cat.cpp */,
 				13041B4E2C899BDF00DD2A4E /* main.cpp */,
 				13041B562C899CAD00DD2A4E /* Animal.h */,
+				13041B5A2C89A6A900DD2A4E /* Elephant.cpp */,
+				13041B5B2C89A6A900DD2A4E /* Elephant.hpp */,
 			);
 			path = Zoo;
 			sourceTree = "<group>";
@@ -121,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13041B592C89A38A00DD2A4E /* Cat.cpp in Sources */,
 				13041B4F2C899BDF00DD2A4E /* main.cpp in Sources */,
+				13041B5C2C89A6A900DD2A4E /* Elephant.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
